@@ -84,33 +84,7 @@ btnOption4.Text = options[3];
 Ги поставуваме 4-те копчиња со по еден одговор
 We assign the 4 buttons with the 4 answers
 
-## 3. Упатство за користење / How to Use
-
-### 3.1 Нова игра / New Game
-
-![Main Menu](images/main-menu.PNG)
-
-На почетното мени при стартување на апликацијата, може да започнете нова игра со кликање на копчето **New Game**, каде што се отвора нов прозорец во кој вие си го бирате начинот на играње.  
-From the main menu, you can start a new game by clicking the **New Game** button, which opens a new window where you select your game mode.
-
-### 3.2 Поставки / Settings
-
-![Settings](images/settings.PNG)
-
-Во овој прозорец имате можност да изберете ниво на тежина на кое ќе играте. Постојат 3 опции:  
-In this window, you can choose the difficulty of your game. There are 3 options:
-
-**Easy/Лесно**  
-**Medium/Средно**  
-**Hard/Тешко**
-
-Потоа, можете да изберете еден од два понудени начини на игра:  
-Then, you can choose between the two game modes:
-
-**Classic Game**  
-**Inverted Game**
-
-## 4 Како се игра / How to Play
+## 3 Како се игра / How to Play
 
 - Погодете ја точната држава која е прикажана на екранот.  
   Guess the correct country shown on the screen.  
@@ -129,9 +103,9 @@ Then, you can choose between the two game modes:
 
 ---
 
-## 5. Начини на игра / Game Modes
+## 4. Начини на игра / Game Modes
 
-### 5.1 Класична игра / Classic Game
+### 4.1 Класична игра / Classic Game
 
 - Се прикажува случајно избрано **знаме** на екран.  
   A random **flag** is shown on the screen.  
@@ -146,7 +120,7 @@ Then, you can choose between the two game modes:
   - Се пушта звук што укажува дека одговорот е неточен. / A sound is played indicating that your guess is incorrect.  
   - Копчето станува црвено. / The button turns red.
 
-### 5.2 Инверзна игра / Inverted Game
+### 4.2 Инверзна игра / Inverted Game
 
 - Се прикажува **име на држава** наместо знаме.  
   The **name of a country** is shown instead of a flag.  
@@ -157,7 +131,7 @@ Then, you can choose between the two game modes:
 
 ---
 
-## 6. Бонус – Survival / Bonus Mode – Survival
+## 5. Бонус – Survival / Bonus Mode – Survival
 
 - Може да се активира заедно со било кој начин на играње.  
   Can be enabled alongside any game mode.  
@@ -170,9 +144,9 @@ Then, you can choose between the two game modes:
 
 ---
 
-## 7. Туторијал / Tutorial
+## 6. Туторијал / Tutorial
 
-### 7.1 Почетно мени / Main Menu
+### 6.1 Почетно мени / Main Menu
 
 - Кликнете на **New Game** за да започнете.  
   Click **New Game** to start.  
@@ -180,7 +154,7 @@ Then, you can choose between the two game modes:
   Click the question mark in the top-right to view the rules.  
   ![Main Menu](images/main-menu.PNG)
 
-### 7.2 Класична игра / Classic Mode
+### 6.2 Класична игра / Classic Mode
 
 - На екранот ќе се појави знаме.  
   A flag will appear on screen.  
@@ -192,7 +166,7 @@ Then, you can choose between the two game modes:
   Wrong answer = different sound + red button.  
   ![Classic Mode](images/classic-game.PNG)
 
-### 7.3 Инверзна игра / Inverted Mode
+### 6.3 Инверзна игра / Inverted Mode
 
 - Прикажано е име на држава.  
   A country name is displayed.  
@@ -200,7 +174,7 @@ Then, you can choose between the two game modes:
   Choose the correct flag.  
   ![Inverted Mode](images/inverted-game.PNG)
 
-### 7.4 Поставки / Settings
+### 6.4 Поставки / Settings
 
 - Отворете ги поставките од менито.  
   Open the settings from the main menu.  
