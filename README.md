@@ -12,7 +12,7 @@ A C# Windows Forms game where you guess the correct flag of the country that is 
 - a label in the top left corner that tracks total correct answers
 - A label in the top right corner that shows you how much time you have left
 
-## 2 Game Modes
+### 2 Game Modes
 
   # Classic Game
 
