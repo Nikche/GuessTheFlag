@@ -28,3 +28,14 @@ A C# Windows Forms game where you guess the correct flag of the country that is 
 - There are two sounds that are played indicating if you guessed correctly or not
 
 
+  # Bonus mode
+
+  ## Survival Mode
+
+  - Can be selected upon selecting game mode
+  - Works with both game modes
+  - You have 3 lives
+  - Each wrong guess subtracts 1 life
+  - 3 wrong guesses and you are out!
+
+
