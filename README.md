@@ -3,6 +3,9 @@
 
 A C# Windows Forms project by: Nikola Vasilevski.
 
+##1. Опис на апликацијата
+Во овој проект е имплементирана играта Guess the Flag, со додавање на уште еден начин на играње [**Inverted Mode**]
+
 ## How to Play
 
 - Guess the correct country that is being displayed on the screen.
