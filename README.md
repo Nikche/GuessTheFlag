@@ -1,103 +1,103 @@
 # Guess The Flag
 
+C# Windows Forms проект од: Никола Василевски.
 
-A C# Windows Forms project by: Nikola Vasilevski.
+## 1. Опис на апликацијата
+Во овој проект е имплементирана играта **Guess the Flag**, со додавање на уште еден начин на играње - **Inverted Mode**.
 
-##1. Опис на апликацијата
-Во овој проект е имплементирана играта Guess the Flag, со додавање на уште еден начин на играње **Inverted Mode**
+## 2. Упатство за користење
 
-##2. Упатство за користење
-
-###2.1 Нова игра/New Game
+### 2.1 Нова игра
 
 ![Main Menu](images/main-menu.PNG)
 
-На почетното мени при стартување на апликацијата може да започнете нова игра со кликање на копчето **New Game**, каде што се отвара нов прозорец во кој вие си бирате начинот на играње.
+На почетното мени при стартување на апликацијата, може да започнете нова игра со кликање на копчето **New Game**, каде што се отвора нов прозорец во кој вие си го бирате начинот на играње.
 
-###2.2 Поставки/Settings
+### 2.2 Поставки
 
 ![Settings](images/settings.PNG)
 
-Во овој прозорец имате можност да изберете левел на кој ќе играте односно тежина. Имате 3 опции:
-**Easy/Лесна**
-**Medium/Средна**
-**Hard/Тешка**. 
+Во овој прозорец имате можност да изберете ниво на тежина на кое ќе играте. Постојат 3 опции:  
+**Easy/Лесно**  
+**Medium/Средно**  
+**Hard/Тешко**
 
-Потоа имате можност да селектирате еден од два понудени начини на играње:
+Потоа, можете да изберете еден од два понудени начина на игра:
 
-**Classic Game**
+**Classic Game**  
 **Inverted Game**
 
-## How to Play
+## Како се игра
 
-- Guess the correct country that is being displayed on the screen.
-- Each game lasts 60 seconds.
-- Each correct answer updates your total score.
-- Wrong answers do not subtract from the total score.
-- A sound is played whether you guessed correctly or not.
-- A label in the top-left corner tracks total correct answers.
-- A label in the top-right corner shows how much time you have left.
-
----
-
-## Game Modes
-
-### Classic Mode
-
-- One random country **flag** is displayed on the screen.
-- 4 buttons appear: 1 correct answer and 3 incorrect ones.
-- If you guess correctly:
-  - A sound is played.
-  - The button turns green.
-- If you guess incorrectly:
-  - A different sound is played.
-  - The button turns red.
-
-### Inverted Mode
-
-- One random **country name** is displayed on the screen.
-- 4 flags are shown: only 1 is correct.
-- Correct and incorrect guesses trigger different sounds.
+- Погодете ја точната држава која е прикажана на екранот.
+- Секоја игра трае 60 секунди.
+- Секој точен одговор го зголемува вкупниот резултат.
+- Неточните одговори не одземаат поени.
+- Во горниот лев агол има лабела што го прикажува бројот на точни одговори.
+- Во горниот десен агол се прикажува колку време останува.
+- За секој точен или неточен одговор има соодветна мелодија што ќе ја слушнете после секој одговор
 
 ---
 
-## Bonus Mode – Survival
+## Начини на игра
 
-- Can be enabled alongside any game mode.
-- You start with **3 lives**.
-- Each wrong guess removes **1 life**.
-- Game ends when you lose all 3 lives.
+### Класична игра
+
+- Се прикажува случајно избрано **знаме** на екран.
+- Се појавуваат 4 копчиња: 1 точен и 3 неточни одговори.
+- Ако погодите точно:
+  - Се пушта позитивен звук.
+  - Копчето станува зелено.
+- Ако згрешите:
+  - Се пушта различен звук.
+  - Копчето станува црвено.
+
+### Инверзна игра
+
+- Се прикажува **име на држава** наместо знаме.
+- Прикажани се 4 знамиња, од кои само едно е точно.
+- Секој точен или неточен одговор репродуцира соодветен звук.
 
 ---
 
-## Tutorial
+## Бонус режим – Survival
 
-### Start Menu
+- Може да се активира заедно со било кој начин на играње.
+- Играчот почнува со **3 животи**.
+- Секој погрешен одговор одзема **1 живот**.
+- Играта завршува кога ќе изгубите сите 3 животи.
 
-- Click **New Game** to start playing.  
+---
+
+## Туторијал
+
+### Почетно мени
+
+- Кликнете на **New Game** за да започнете.  
   ![Main Menu](images/main-menu.PNG)
 
-### Classic Mode
+### Класичен режим
 
-- A flag will appear on the screen.  
-- Select the correct country name from the four buttons.  
-- Correct guesses play a positive sound and highlight the button green.  
-- Wrong guesses play a different sound and highlight the button red.  
+- На екранот ќе се појави знаме.  
+- Изберете го точниот одговор од четирите понудени опции.  
+- Точниот одговор пушта позитивен звук и го обојува копчето во зелено.  
+- Неточниот одговор пушта различен звук и копчето станува црвено.  
   ![Classic Mode](images/classic-game.PNG)
 
-### Inverted Mode
+### Инверзен режим
 
-- A country name is shown instead of a flag.  
-- Choose the correct flag from four options.  
-- Sounds and button highlights work the same as Classic Mode.  
+- Прикажано е име на држава.  
+- Изберете го точниот флаг од понудените четири.  
+- Се користат истите звуци и бои како и во Класичниот режим.  
   ![Inverted Mode](images/inverted-game.PNG)
 
-### Settings
+### Поставки
 
-- Access settings from the main menu to toggle game modes and enable Survival mode.  
+- Пристапете до поставките преку главното мени за да селектирате начин на игра и да вклучите Survival режим.  
   ![Settings](images/settings.PNG)
 
+---
 
-## Credits
+## Автор
 
-Created by **Nikola Vasilevski**
+Изработено од **Никола Василевски**
