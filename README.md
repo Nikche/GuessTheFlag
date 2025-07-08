@@ -47,6 +47,43 @@ while (previousFlag != null && currentFlag.CountryName == previousFlag.CountryNa
 Со овој метод се избира знаме што е различно од претходното, истовремено генерира и различни три неточни одговори, и се прикажуваат на екран.
 This method picks a flag that is different from the previous onewhile also generating 3 different wrong options and displayes them on the screen.
 
+```csharp
+List<Flag> wrongOptions = flags
+    .Where(f => f != currentFlag)
+    .OrderBy(x => rng.Next())
+    .Take(3)
+    .ToList();
+
+```
+
+Од сите неточни одговори избираме 3 по случаен избор
+From all the wrong answers we choose 3 random ones
+
+```csharp
+List<string> options = wrongOptions.Select(f => f.CountryName).ToList();
+options.Add(currentFlag.CountryName);
+options = options.OrderBy(x => rng.Next()).ToList();
+
+```
+
+Ги додаваме точниот одговор и трите неточни одговори во една листа
+We add the correct answer along with the three wrong answers in one list
+
+```csharp
+pictureBox1.Image = Image.FromFile(currentFlag.ImagePath);
+```
+Го прикажуваме точното знаме
+We display the correct flag
+
+```csharp
+btnOption1.Text = options[0];
+btnOption2.Text = options[1];
+btnOption3.Text = options[2];
+btnOption4.Text = options[3];
+```
+Ги поставуваме 4-те копчиња со по еден одговор
+We assign the 4 buttons with the 4 answers
+
 ## 2. Упатство за користење / How to Use
 
 ### 2.1 Нова игра / New Game
