@@ -12,16 +12,16 @@ A C# Windows Forms game where you guess the correct flag of the country that is 
 - a label in the top left corner that tracks total correct answers
 - A label in the top right corner that shows you how much time you have left
 
-### 2 Game Modes
+# 2 Game Modes
 
-  # Classic Game
+  ## Classic Game
 
 - One random country flag displayed on the screen
 - 4 buttons with 1 correct and 3 wrong answers
 - If you guess correctly, a soung will be played and also the button will turn green
 - If you guess wrong, a different sound will be played and the button will turn red
 
-  # Inverted Game
+  ## Inverted Game
 
 - One random country name displayed on the screen
 - 4 Flags where only 1 is correct and the other 3 are wrong
