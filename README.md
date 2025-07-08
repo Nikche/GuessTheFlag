@@ -49,7 +49,7 @@ A C# Windows Forms game where you guess the correct flag of the country that is 
 ### **Start menu**
 
 - Click New Game
-- ![Main Menu] (images/main-menu.png)
+- ![Main Menu](images/main-menu.png)
 
 
 ## Credits
