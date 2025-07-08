@@ -32,6 +32,20 @@ namespace Guess_The_Flag
     }
 }
 ```
+Сите знамиња се чуваат во List<Flags> која е иницијализирана во класите `ClassicGame` и `InvertedGame`
+
+Методот `ShowNewFlagQuestion` е одговорен за прикажување на ново прашање односно нова држава/ The method `ShowNewFlagQuestion` is responsible for displaying a new flag on the screen
+
+```csharp
+do
+{
+    currentFlag = flags[rng.Next(flags.Count)];
+}
+while (previousFlag != null && currentFlag.CountryName == previousFlag.CountryName);
+
+```
+Со овој метод се избира знаме што е различно од претходното, истовремено генерира и различни три неточни одговори, и се прикажуваат на екран.
+This method picks a flag that is different from the previous onewhile also generating 3 different wrong options and displayes them on the screen.
 
 ## 2. Упатство за користење / How to Use
 
