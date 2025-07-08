@@ -44,6 +44,14 @@ A C# Windows Forms game where you guess the correct flag of the country that is 
 
 ---
 
+## Tutorial 
+
+### **Start menu**
+
+- Click New Game
+- ![Main Menu] (images/main-menu.png)
+
+
 ## Credits
 
 Created by **Nikola Vasilevski**
