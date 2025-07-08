@@ -8,6 +8,31 @@ C# Windows Forms project by: Nikola Vasilevski.
 Во овој проект е имплементирана играта **Guess the Flag**, со додавање на уште еден начин на играње - **Inverted Mode**.  
 In this project I implemented the game **Guess the Flag**, with an additional game mode called **Inverted Mode**.
 
+## 2. Решение на проблемот / Problem Solution
+
+Апликацијата работи со сет од држави и нивни сликички со знамиња.  
+The app works with a set of countries and their corresponding flag images.
+
+Овие податоци се чуваат во класа `Flag`:  
+These are stored in a `Flag` class:
+
+```csharp
+namespace Guess_The_Flag
+{
+    public class Flag
+    {
+        public string CountryName { get; set; } 
+        public string ImagePath {  get; set; }
+
+        public Flag(string countryName, string imagePath) { 
+
+            CountryName = countryName;
+            ImagePath = imagePath;
+        }
+    }
+}
+```
+
 ## 2. Упатство за користење / How to Use
 
 ### 2.1 Нова игра / New Game
