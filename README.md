@@ -1,6 +1,7 @@
 # Guess The Flag
 
-A C# Windows Forms game where you guess the correct flag of the country that is being displayed on the screen.
+
+A C# Windows Forms project by: Nikola Vasilevski.
 
 ## How to Play
 
