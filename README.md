@@ -22,7 +22,8 @@ From the main menu, you can start a new game by clicking the **New Game** button
 ![Settings](images/settings.PNG)
 
 Во овој прозорец имате можност да изберете ниво на тежина на кое ќе играте. Постојат 3 опции:  
-In this window, you can choose the difficulty of your game. There are 3 options:  
+In this window, you can choose the difficulty of your game. There are 3 options:
+
 **Easy/Лесно**  
 **Medium/Средно**  
 **Hard/Тешко**
