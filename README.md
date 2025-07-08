@@ -44,12 +44,32 @@ A C# Windows Forms game where you guess the correct flag of the country that is 
 
 ---
 
-## Tutorial 
+## Tutorial
 
-### **Start menu**
+### Start Menu
 
-- Click New Game
-- ![Main Menu](images/main-menu.PNG)
+- Click **New Game** to start playing.  
+  ![Main Menu](images/main-menu.PNG)
+
+### Classic Mode
+
+- A flag will appear on the screen.  
+- Select the correct country name from the four buttons.  
+- Correct guesses play a positive sound and highlight the button green.  
+- Wrong guesses play a different sound and highlight the button red.  
+  ![Classic Mode](images/classic-game.PNG)
+
+### Inverted Mode
+
+- A country name is shown instead of a flag.  
+- Choose the correct flag from four options.  
+- Sounds and button highlights work the same as Classic Mode.  
+  ![Inverted Mode](images/inverted-game.PNG)
+
+### Settings
+
+- Access settings from the main menu to toggle game modes and enable Survival mode.  
+  ![Settings](images/settings.PNG)
 
 
 ## Credits
